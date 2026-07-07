@@ -255,7 +255,7 @@ export default function Home() {
               onClick={() => {
                 const carousel = document.getElementById('testimonial-carousel');
                 if (carousel) {
-                  const width = carousel.children[0].offsetWidth;
+                  const width = (carousel.children[0] as HTMLElement).offsetWidth;
                   carousel.parentElement!.scrollLeft -= width;
                 }
               }}
@@ -267,7 +267,7 @@ export default function Home() {
               onClick={() => {
                 const carousel = document.getElementById('testimonial-carousel');
                 if (carousel) {
-                  const width = carousel.children[0].offsetWidth;
+                  const width = (carousel.children[0] as HTMLElement).offsetWidth;
                   carousel.parentElement!.scrollLeft += width;
                 }
               }}
@@ -285,7 +285,7 @@ export default function Home() {
                 onClick={() => {
                   const carousel = document.getElementById('testimonial-carousel');
                   if (carousel) {
-                    const width = carousel.children[0].offsetWidth;
+                    const width = (carousel.children[0] as HTMLElement).offsetWidth;
                     carousel.parentElement!.scrollLeft = idx * width;
                   }
                 }}
