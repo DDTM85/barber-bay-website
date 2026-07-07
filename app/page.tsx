@@ -42,7 +42,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-blue-200">
         <div className="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
-          <img src="/logo.png" alt="Barber Bay logo" className="h-16 w-auto" />
+          <img src="/logo.png" alt="Barber Bay logo" className="h-12 md:h-16 w-auto" />
           <div className="hidden md:flex gap-8 text-sm font-medium items-center">
             <a href="#benefits" className="hover:text-blue-600 transition">Why Us</a>
             <a href="#services" className="hover:text-blue-600 transition">Services</a>
