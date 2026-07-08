@@ -38,10 +38,10 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-white text-gray-800 min-h-screen font-sans">
+    <div className="bg-white text-gray-800 min-h-screen font-sans overflow-x-hidden">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-blue-200">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 py-2 md:py-4 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-4 flex flex-col md:flex-row justify-between items-center gap-3 md:gap-0">
           <img src="/logo.png" alt="Barber Bay logo" className="h-12 w-12 md:h-24 md:w-24 object-contain flex-shrink-0" />
           <div className="flex gap-2 md:gap-8 text-xs md:text-sm font-medium items-center justify-end">
             <a href="#benefits" className="hover:text-blue-600 transition whitespace-nowrap">Why Us</a>
@@ -70,7 +70,7 @@ export default function Home() {
       </nav>
 
       {/* Hero */}
-      <section className="py-20 px-8 bg-gradient-to-b from-blue-50 to-white">
+      <section className="py-12 md:py-20 px-4 md:px-8 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-5xl mx-auto text-center">
           <div className="mb-12 flex justify-center">
             <img src="/logo.png" alt="Barber Bay logo" className="h-[302px] w-auto" />
@@ -89,14 +89,14 @@ export default function Home() {
           <div className="flex flex-col gap-4">
             <a
               href="tel:+97451856566"
-              className="px-8 py-4 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition inline-block"
+              className="px-6 md:px-8 py-3 md:py-4 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition inline-block"
             >
               Call to Book
             </a>
             <a
               href="https://maps.app.goo.gl/wyPFm36CQh3jCaod6"
               target="_blank"
-              className="px-8 py-4 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-600 hover:text-white transition inline-block"
+              className="px-6 md:px-8 py-3 md:py-4 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-600 hover:text-white transition inline-block"
             >
               Find Us
             </a>
@@ -105,7 +105,7 @@ export default function Home() {
       </section>
 
       {/* Benefits */}
-      <section id="benefits" className="py-20 px-8 bg-white border-t border-blue-100">
+      <section id="benefits" className="py-12 md:py-20 px-4 md:px-8 bg-white border-t border-blue-100">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-16 text-blue-900 text-center">Why Barber Bay</h2>
           <div className="grid md:grid-cols-3 gap-12">
@@ -129,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* Services */}
-      <section id="services" className="py-20 px-8 bg-blue-50 border-t border-blue-100">
+      <section id="services" className="py-12 md:py-20 px-4 md:px-8 bg-blue-50 border-t border-blue-100">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-16 text-blue-900">Our Services</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -151,7 +151,7 @@ export default function Home() {
       </section>
 
       {/* Hygiene Promise */}
-      <section className="py-20 px-8 bg-white border-t border-blue-100">
+      <section className="py-12 md:py-20 px-4 md:px-8 bg-white border-t border-blue-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-blue-900 text-center">Our Hygiene Promise</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -175,7 +175,7 @@ export default function Home() {
       </section>
 
       {/* Meet Our Barbers */}
-      <section id="barbers" className="py-20 px-8 bg-blue-50 border-t border-blue-100">
+      <section id="barbers" className="py-12 md:py-20 px-4 md:px-8 bg-blue-50 border-t border-blue-100">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-16 text-blue-900 text-center">Meet the Barbers</h2>
           <div className="grid md:grid-cols-3 gap-12">
@@ -193,7 +193,7 @@ export default function Home() {
       </section>
 
       {/* Gallery */}
-      <section className="py-20 px-8 bg-white border-t border-blue-100">
+      <section className="py-12 md:py-20 px-4 md:px-8 bg-white border-t border-blue-100">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-blue-900 text-center">The Space</h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -300,7 +300,7 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="py-20 px-8 bg-blue-900 text-white border-t border-blue-800">
+      <section id="contact" className="py-12 md:py-20 px-4 md:px-8 bg-blue-900 text-white border-t border-blue-800">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12">Get In Touch</h2>
           <div className="grid md:grid-cols-3 gap-12">
@@ -328,7 +328,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-blue-800">
-            <a href="tel:+97451856566" className="inline-block px-8 py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition">
+            <a href="tel:+97451856566" className="inline-block px-6 md:px-8 py-2 md:py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition">
               Call Now
             </a>
           </div>
@@ -347,7 +347,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-8 bg-blue-950 text-blue-300 text-sm text-center">
+      <footer className="py-8 px-4 md:px-8 bg-blue-950 text-blue-300 text-sm text-center">
         <p>Barber Bay © 2026 | West Bay's Premier Barbershop</p>
       </footer>
 
