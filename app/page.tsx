@@ -49,8 +49,11 @@ export default function Home() {
             <a href="#barbers" className="hover:text-blue-600 transition">Team</a>
             <a href="#contact" className="hover:text-blue-600 transition">Contact</a>
             <div className="flex gap-4 items-center">
-              <a href="https://inst.pngagram.com" target="_blank" className="hover:opacity-75 transition" title="Instagram">
+              <a href="https://instagram.com" target="_blank" className="hover:opacity-75 transition" title="Instagram">
                 <img src="/inst.png" alt="Instagram" className="w-5 h-5" />
+              </a>
+              <a href="https://facebook.com" target="_blank" className="hover:opacity-75 transition" title="Facebook">
+                <img src="/fb.png" alt="Facebook" className="w-5 h-5" />
               </a>
               <a href="https://wa.me/97455553333" target="_blank" className="hover:opacity-75 transition" title="WhatsApp">
                 <img src="/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
@@ -330,8 +333,11 @@ export default function Home() {
             </a>
           </div>
           <div className="mt-12 flex justify-center gap-8">
-            <a href="https://inst.pngagram.com" target="_blank" className="hover:opacity-75 transition" title="Instagram">
+            <a href="https://instagram.com" target="_blank" className="hover:opacity-75 transition" title="Instagram">
               <img src="/inst.png" alt="Instagram" className="w-8 h-8" />
+            </a>
+            <a href="https://facebook.com" target="_blank" className="hover:opacity-75 transition" title="Facebook">
+              <img src="/fb.png" alt="Facebook" className="w-8 h-8" />
             </a>
             <a href="https://wa.me/97455553333" target="_blank" className="hover:opacity-75 transition" title="WhatsApp">
               <img src="/whatsapp.png" alt="WhatsApp" className="w-8 h-8" />
