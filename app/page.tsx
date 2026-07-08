@@ -53,7 +53,7 @@ export default function Home() {
                 <img src="/inst" alt="Instagram" className="w-5 h-5" />
               </a>
               <a href="https://wa.me/97455553333" target="_blank" className="hover:opacity-75 transition" title="WhatsApp">
-                <img src="/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
+                <img src="/whatsapp" alt="WhatsApp" className="w-5 h-5" />
               </a>
             </div>
             <a
@@ -334,7 +334,7 @@ export default function Home() {
               <img src="/inst" alt="Instagram" className="w-8 h-8" />
             </a>
             <a href="https://wa.me/97455553333" target="_blank" className="hover:opacity-75 transition" title="WhatsApp">
-              <img src="/whatsapp.png" alt="WhatsApp" className="w-8 h-8" />
+              <img src="/whatsapp" alt="WhatsApp" className="w-8 h-8" />
             </a>
           </div>
         </div>
