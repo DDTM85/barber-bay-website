@@ -41,27 +41,27 @@ export default function Home() {
     <div className="bg-white text-gray-800 min-h-screen font-sans">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-blue-200">
-        <div className="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
-          <img src="/logo.png" alt="Barber Bay logo" className="h-16 w-16 md:h-24 md:w-24 object-contain" />
-          <div className="flex gap-8 text-sm font-medium items-center flex-wrap justify-end">
-            <a href="#benefits" className="hover:text-blue-600 transition">Why Us</a>
-            <a href="#services" className="hover:text-blue-600 transition">Services</a>
-            <a href="#barbers" className="hover:text-blue-600 transition">Team</a>
-            <a href="#contact" className="hover:text-blue-600 transition">Contact</a>
-            <div className="flex gap-4 items-center">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 py-2 md:py-4 flex justify-between items-center">
+          <img src="/logo.png" alt="Barber Bay logo" className="h-12 w-12 md:h-24 md:w-24 object-contain flex-shrink-0" />
+          <div className="flex gap-2 md:gap-8 text-xs md:text-sm font-medium items-center justify-end">
+            <a href="#benefits" className="hover:text-blue-600 transition whitespace-nowrap">Why Us</a>
+            <a href="#services" className="hover:text-blue-600 transition whitespace-nowrap">Services</a>
+            <a href="#barbers" className="hover:text-blue-600 transition whitespace-nowrap">Team</a>
+            <a href="#contact" className="hover:text-blue-600 transition whitespace-nowrap">Contact</a>
+            <div className="flex gap-2 md:gap-4 items-center flex-shrink-0">
               <a href="https://instagram.com" target="_blank" className="hover:opacity-75 transition" title="Instagram">
-                <img src="/inst.png" alt="Instagram" className="w-5 h-5" />
+                <img src="/inst.png" alt="Instagram" className="w-4 h-4 md:w-5 md:h-5" />
               </a>
               <a href="https://facebook.com" target="_blank" className="hover:opacity-75 transition" title="Facebook">
-                <img src="/fb.png" alt="Facebook" className="w-5 h-5" />
+                <img src="/fb.png" alt="Facebook" className="w-4 h-4 md:w-5 md:h-5" />
               </a>
               <a href="https://wa.me/97455553333" target="_blank" className="hover:opacity-75 transition" title="WhatsApp">
-                <img src="/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
+                <img src="/whatsapp.png" alt="WhatsApp" className="w-4 h-4 md:w-5 md:h-5" />
               </a>
             </div>
             <a
               href="tel:+97451856566"
-              className="px-6 py-2 bg-red-600 text-white font-semibold rounded hover:bg-red-700 transition"
+              className="px-3 md:px-6 py-1 md:py-2 bg-red-600 text-white text-xs md:text-sm font-semibold rounded hover:bg-red-700 transition whitespace-nowrap flex-shrink-0"
             >
               Book Now
             </a>
