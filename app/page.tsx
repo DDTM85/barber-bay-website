@@ -67,7 +67,7 @@ export default function Home() {
       <section className="py-20 px-8 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-5xl mx-auto text-center">
           <div className="mb-12 flex justify-center">
-            <img src="/logo.png" alt="Barber Bay logo" className="h-[432px] w-auto" />
+            <img src="/logo.png" alt="Barber Bay logo" className="h-[302px] w-auto" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-blue-900 mb-4">
             Barber Bay
